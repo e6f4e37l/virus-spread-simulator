@@ -4,8 +4,8 @@ This simulation uses [matter.js](https://brm.io/matter-js/) and [chart.js](https
 The basic idea is to lower R<sub>0</sub> below 1, which will both greatly lower the load on hospitals by "flattening the curve" and slow the spread.
 
 # Variable "policies"
-There are a series of "policies" that can be modified to demonstrate how policies may actually help "flatten the curve" and ease the pandemic. The results of changing each and its relation to the real world are shown in the following table:
-| "Policy"              | Change to Decrease R<sub>0</sub> | Reason                                         | Application IRL                          |
+There are a series of "policies"/parameters that can be modified to demonstrate how policies may actually help "flatten the curve" and ease the pandemic. The results of changing each and its relation to the real world are shown in the following table:
+| "Policy"/Parameter    | Change to Decrease R<sub>0</sub> | Reason                                         | Application IRL                          |
 | :---------------------|:--------------------------------:|:-----------------------------------------------|:-----------------------------------------|
 | Infection Rate        | Decrease                         | Less chance for infection upon contact         | Practice good hygiene: masks/wash hands  |
 | % People Qurantining  | Increase                         | Less events for virus transmission to occur    | Stay indoors/practice social distancing  |
