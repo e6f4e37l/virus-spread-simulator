@@ -6,11 +6,15 @@ The basic idea is to lower R<sub>0</sub> below 1, which will both greatly lower 
 There are a series of "policies" that can be modified to demonstrate how policies may acutally help "flatten the curve" and ease the pandemic:
 * Infection Rate
 * % People Quarantining
-* Testing Period (days)
-* Recovery Period (days)
+* Testing Period
+* Recovery Period
 * Hospital Capacity
 The results of changing each and its relation to the real world are shown in the following table:
 
-| "Policy"  | Change to Decrease R<sub>0</sub>  | Reason  | Application IRL |
-| ----------|:---------------------------------:|:-------:|:---------------:|
-| test      | test                              | test    | test            |
+| "Policy"              | Change to Decrease R<sub>0</sub> | Reason                              | Application IRL                         |
+| :---------------------|:--------------------------------:|:------------------------------------|:----------------------------------------|
+| Infection Rate        | Decrease                         | test                                | test                                    |
+| % People Qurantining  | Increase                         | test                                | test                                    |
+| Testing Period        | Decrease                         | test                                | test                                    |
+| Recovery Period       | Decrease                         | test                                | test                                    |
+| Hospital Capacity     | Increase                         | test                                | test                                    |
