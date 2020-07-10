@@ -11,10 +11,10 @@ There are a series of "policies" that can be modified to demonstrate how policie
 * Hospital Capacity
 The results of changing each and its relation to the real world are shown in the following table:
 
-| "Policy"              | Change to Decrease R<sub>0</sub> | Reason                              | Application IRL                         |
-| :---------------------|:--------------------------------:|:------------------------------------|:----------------------------------------|
-| Infection Rate        | Decrease                         | test                                | test                                    |
-| % People Qurantining  | Increase                         | test                                | test                                    |
-| Testing Period        | Decrease                         | test                                | test                                    |
-| Recovery Period       | Decrease                         | test                                | test                                    |
-| Hospital Capacity     | Increase                         | test                                | test                                    |
+| "Policy"              | Change to Decrease R<sub>0</sub> | Reason                                         | Application IRL                          |
+| :---------------------|:--------------------------------:|:-----------------------------------------------|:-----------------------------------------|
+| Infection Rate        | Decrease                         | Less chance for infection upon contact         | Practice good hygiene: masks/wash hands  |
+| % People Qurantining  | Increase                         | Less events for virus transmission to occur    | Stay indoors/practice social distancing  |
+| Testing Period        | Decrease                         | Infected people identified and treated faster  | More accessible/effective/faster testing |
+| Recovery Period       | Decrease                         | Infected people are treated faster⇒infect less | Better/more funding for research         |
+| Hospital Capacity     | Increase                         | More infected people are able to be treated    | Better/more funding for hospitals        |
