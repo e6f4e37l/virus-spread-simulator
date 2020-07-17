@@ -2,7 +2,7 @@
 var currentR0;
 var simulationLength = 125;
 var dayLength = 500;
-var verticalMargin = 0.7
+var verticalMargin = 0.8
 var currentDay = 0;
 var hospitalizedPeople = [];
 var firstPerson = true;
