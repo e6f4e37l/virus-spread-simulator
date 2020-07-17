@@ -11,8 +11,4 @@ There are a series of "policies"/parameters that can be modified to demonstrate 
 | % People Qurantining  | Increase                         | Less events for virus transmission to occur    | Stay indoors/practice social distancing  |
 | Testing Period        | Decrease                         | Infected people identified and treated faster  | More accessible/effective/faster testing |
 | Recovery Period       | Decrease                         | Infected people are treated faster⇒infect less | Better/more funding for research         |
-<<<<<<< HEAD
 | Hospital Capacity     | Increase                         | More infected people are able to be treated    | Better/more funding for hospitals        |
-=======
-| Hospital Capacity     | Increase                         | More infected people are able to be treated    | Better/more funding for hospitals        |
->>>>>>> c3c2d6a41011f632a6c296a3b5d41e0de2bb11a3
