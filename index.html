@@ -23,15 +23,16 @@
 <body>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-3" style="padding-top: 15px; padding-left: 15px; padding-right: 15px; padding-bottom: 15px">
+      <div class="col-lg-3 col-md-5" style="padding-top: 15px; padding-left: 15px; padding-right: 15px; padding-bottom: 15px">
         <div id="informationCard" class="card" style="background-color: transparent; border-radius: 15px">
           <div class="card-body" style="background-color:#445174; border-radius: 15px; height: inherit;">
             <h5 class="card-body" style="color: #DFDFEF; font-size: 24px; font-weight:bold; text-align:center;">Pandemic Policies</h5>
+            <a class="twitter-share-button" href="https://twitter.com/intent/tweet">Tweet</a>
             <!--Infection Rate Slider-->
             <h5 class="card-text" style="color:#DFDFEF; font-size: 14px; font-weight:bold; text-align:center;">Infection Rate</h5>
             <form>
               <div class="form-row">
-                <div class="col">
+                <div class="col-1">
                   <span style="color:#DFDFEF; font-weight:bold; float:right;">Min.</span>
                 </div>
                 <div class="col-9">
@@ -39,7 +40,7 @@
                     <input id="infectRate" type="range" class="form-control-range" min="50" max="100" value="100">
                   </div>
                 </div>
-                <div class="col">
+                <div class="col-1">
                   <span style="color:#DFDFEF; font-weight:bold; float:left">Max.</span>
                 </div>
               </div>
@@ -48,7 +49,7 @@
             <h5 class="card-text" style="color:#DFDFEF; font-size: 14px; font-weight:bold; text-align:center;">% People Quarantining</h5>
             <form>
               <div class="form-row">
-                <div class="col">
+                <div class="col-1">
                   <span style="color:#DFDFEF; font-weight:bold; float:right;">0%</span>
                 </div>
                 <div class="col-9">
@@ -56,7 +57,7 @@
                     <input id="peopleSocialDistancing" type="range" class="form-control-range" min="0" max="100" value="0">
                   </div>
                 </div>
-                <div class="col">
+                <div class="col-1">
                   <span style="color:#DFDFEF; font-weight:bold; float:left">100%</span>
                 </div>
               </div>
@@ -65,7 +66,7 @@
             <h5 class="card-text" style="color:#DFDFEF; font-size: 14px; font-weight:bold; text-align:center;">Testing Period (days)</h5>
             <form>
               <div class="form-row">
-                <div class="col">
+                <div class="col-1">
                   <span style="color:#DFDFEF; font-weight:bold; float:right;">4</span>
                 </div>
                 <div class="col-9">
@@ -73,7 +74,7 @@
                     <input id="testingSpeed" type="range" class="form-control-range" min="4" max="21" step="1" value="5">
                   </div>
                 </div>
-                <div class="col">
+                <div class="col-1">
                   <span style="color:#DFDFEF; font-weight:bold; float:left">21</span>
                 </div>
               </div>
@@ -82,7 +83,7 @@
             <h5 class="card-text" style="color:#DFDFEF; font-size: 14px; font-weight:bold; text-align:center;">Recovery Period (days)</h5>
             <form>
               <div class="form-row">
-                <div class="col">
+                <div class="col-1">
                   <span style="color:#DFDFEF; font-weight:bold; float:right;">7</span>
                 </div>
                 <div class="col-9">
@@ -90,7 +91,7 @@
                     <input id="recoveryPeriod" type="range" class="form-control-range" min="7" max="21" step="1" value="14">
                   </div>
                 </div>
-                <div class="col">
+                <div class="col-1">
                   <span style="color:#DFDFEF; font-weight:bold; float:left">21</span>
                 </div>
               </div>
@@ -99,7 +100,7 @@
             <h5 class="card-text" style="color:#DFDFEF; font-size: 14px; font-weight:bold; text-align:center;">Hospital Capacity</h5>
             <form>
               <div class="form-row">
-                <div class="col">
+                <div class="col-1">
                   <span style="color:#DFDFEF; font-weight:bold; float:right;">5%</span>
                 </div>
                 <div class="col-9">
@@ -107,7 +108,7 @@
                     <input id="hospitalCapacity" type="range" class="form-control-range" min="5" max="50" value="20">
                   </div>
                 </div>
-                <div class="col">
+                <div class="col-1">
                   <span style="color:#DFDFEF; font-weight:bold; float:left">50%</span>
                 </div>
               </div>
@@ -226,7 +227,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-9" style="padding-top: 15px; padding-left: 15px; padding-right: 15px; padding-bottom: 15px">
+      <div class="col-lg-9 col-md-7" style="padding-top: 15px; padding-left: 15px; padding-right: 15px; padding-bottom: 15px">
         <div class="card" style="background-color: transparent; border-radius: 15px">
           <div class="card-body" style="background-color: #445174; border-radius: 15px;  height: inherit;">
             <div id="simulationHeader" class="jumbotron jumbotron-fluid" style="background: #3D486D; border-radius: 15px">
@@ -234,25 +235,35 @@
                 <h1 class="display-4" style="color: #DFDFEF; font-size: 24px; font-weight: bold; text-align: center">Disease Spread Simulation</h1>
                 <p class="lead" style="color: #DFDFEF; font-size: 14px; text-align: center"><b>Please note that this simulation is JUST a simulation describing the spread of a general virus&mdash;NOT COVID-19.</b> The purpose of this is to demonstrate how policies work to "flatten the curve" and lower R₀. For more information on R₀, watch <a href="https://youtu.be/5TJ8RJiQPYA">this video</a>.</p>
                 <div class="row">
-                  <div class="col">
-                    <span style="height: 50px; width: 50px; background-color:#808080; border-radius: 50%; display:inline-block;"></span>
-                    <span style="color: #DFDFEF; font-size: 14px; vertical-align: 18px; text-align:center">Uninfected</span>
+                  <div class="card col-md-4 col-sm-6" style="background-color: #445175; padding-left: 5px; padding-top: 5px; padding-right: 5px; padding-bottom: 5px;">
+                    <div class="card-body">
+                      <span style="height: 50px; width: 50px; background-color:#808080; border-radius: 50%; display:inline-block;"></span>
+                      <span style="color: #DFDFEF; font-size: 14px; vertical-align: 18px; text-align:center">Uninfected</span>
+                    </div>
                   </div>
-                  <div class="col">
-                    <span style="height: 50px; width: 50px; background-color:#808080; opacity: 50%; border-radius: 50%; display:inline-block;"></span>
-                    <span style="color: #DFDFEF; font-size: 14px; vertical-align: 18px; text-align:center">Quarantined</span>
+                  <div class="card col-md-4 col-sm-6" style="background-color: #445175; padding-left: 5px; padding-top: 5px; padding-right: 5px; padding-bottom: 5px;">
+                    <div class="card-body">
+                      <span style="height: 50px; width: 50px; background-color:#808080; opacity: 50%; border-radius: 50%; display:inline-block;"></span>
+                      <span style="color: #DFDFEF; font-size: 14px; vertical-align: 18px; text-align:center">Quarantined</span>
+                    </div>
                   </div>
-                  <div class="col">
-                    <span style="height: 50px; width: 50px; background-color:#F8F540; border-radius: 50%; display:inline-block;"></span>
-                    <span style="color: #DFDFEF; font-size: 14px; vertical-align: 18px; text-align:center">Infected</span>
+                  <div class="card col-md-4 col-sm-6" style="background-color: #445175; padding-left: 5px; padding-top: 5px; padding-right: 5px; padding-bottom: 5px;">
+                    <div class="card-body">
+                      <span style="height: 50px; width: 50px; background-color:#F8F540; border-radius: 50%; display:inline-block;"></span>
+                      <span style="color: #DFDFEF; font-size: 14px; vertical-align: 18px; text-align:center">Infected</span>
+                    </div>
                   </div>
-                  <div class="col">
-                    <span style="height: 50px; width: 50px; background-color:#F8F540; opacity: 50%; border-radius: 50%; display:inline-block;"></span>
-                    <span style="color: #DFDFEF; font-size: 14px; vertical-align: 18px; text-align:center">Hospitalized</span>
+                  <div class="card col-md-4 col-sm-6" style="background-color: #445175; padding-left: 5px; padding-top: 5px; padding-right: 5px; padding-bottom: 5px;">
+                    <div class="card-body">
+                      <span style="height: 50px; width: 50px; background-color:#F8F540; opacity: 50%; border-radius: 50%; display:inline-block;"></span>
+                      <span style="color: #DFDFEF; font-size: 14px; vertical-align: 18px; text-align:center">Hospitalized</span>
+                    </div>
                   </div>
-                  <div class="col">
-                    <span style="height: 50px; width: 50px; background-color:#449BE2; opacity: 50%; border-radius: 50%; display:inline-block;"></span>
-                    <span style="color: #DFDFEF; font-size: 14px; vertical-align: 18px; text-align:center">Recovered</span>
+                  <div class="card col-md-4 col-sm-6" style="background-color: #445175; padding-left: 5px; padding-top: 5px; padding-right: 5px; padding-bottom: 5px;">
+                    <div class="card-body">
+                      <span style="height: 50px; width: 50px; background-color:#449BE2; border-radius: 50%; display:inline-block;"></span>
+                      <span style="color: #DFDFEF; font-size: 14px; vertical-align: 18px; text-align:center">Recovered</span>
+                    </div>
                   </div>
                 </div>
               </div>
